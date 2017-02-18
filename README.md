@@ -1,10 +1,10 @@
 # bin2json
 
-Сборка
+##Сборка
     
     mvn install
     
-Запуск приложения (под Linux)
+##Запуск приложения (под Linux)
 
     java -Dlog4j.configuration=file://$(pwd)/log4j.properties -jar dist/target/bin2json-app.jar <input.file> [<output.file>]
     
@@ -15,5 +15,9 @@
 
 Блок ````-Dlog4j.configuration=file://$(pwd)/log4j.properties```` задает внешние настройки логирования.
 По умолчанию выводятся только сообщения уровня ````WARN```` и ````ERROR````.
-    
+
+## Условия использования
+
+Проект предназначен исключительно для некоммерческого использования.
+Если требуются другие условия — свяжитесь с автором.   
  
