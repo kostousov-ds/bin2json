@@ -53,6 +53,7 @@ public class Main {
 	    out.write(json.getBytes());
 	} catch (Exception e) {
 	    logger.error("can't process file {}", e, input);
+	    System.exit(4);
 	} finally {
 	    if (outMustBeClosed) {
 		try {
